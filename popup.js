@@ -2,7 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", async () => {
   const outputDiv = document.getElementById("output");
-  const API_KEY = "AIzaSyDNSuSueeP5djya8vrfhka7Ec6NNYW_WrQ";
+  const API_KEY = "API KEY";
   const API_URL = "http://localhost:5000";
 
   chrome.tabs.query({ active: true, currentWindow: true }, async (tabs) => {
